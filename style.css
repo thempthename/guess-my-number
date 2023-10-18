@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Pixelify Sans", cursive;
+}
+
+body {
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./172404-vashe_imya-miyamizu_mitsuha-taki_tachibana-anime-atmosfera-7680x4320.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+body .top {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .top .langChange {
+  display: none;
+}
+body .top .again {
+  padding: 10px 30px;
+  font-size: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px white;
+  border: 1px solid white;
+}
+body .top p {
+  color: #fff;
+  font-size: 18px;
+}
+body .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 21px;
+}
+body .main .secretNum_bg {
+  color: black;
+  border: 2px solid white;
+  background-color: #fff;
+  padding: 10px 50px;
+}
+body .bot {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 40%;
+  padding: 100px 0;
+}
+body .bot .check {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .bot .check input {
+  background: none;
+  outline: none;
+  padding: 10px;
+  font-size: 60px;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 20px;
+}
+body .bot .check button {
+  padding: 20px;
+  font-size: 25px;
+}
+body .bot .game-procces h2 {
+  max-width: 411.29px;
+}
+body .bot .game-procces p {
+  display: flex;
+  gap: 10px;
+}
+body .bot .score {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+}
+body .bot .score h2 {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */

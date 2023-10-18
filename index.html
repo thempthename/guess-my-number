@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="top">
+      <button class="again">Again!</button>
+      <h3>(0-10)</h3>
+      <div class="langChange"></div>
+    </div>
+    <div class="main">
+      <h1 class="headerText">Guess My Number</h1>
+      <div class="secretNum_bg" style="">
+        <h2 class="secretNum">?</h2>
+      </div>
+    </div>
+    <div class="bot">
+      <div class="check">
+        <input type="number" min="0" max="20" class="user-num" />
+        <button class="check-btn">Check</button>
+      </div>
+      <div class="game-procces">
+        <h2 class="procces">Start guessing...</h2>
+        <p>
+          🔢 <span class="Stext">Score</span>: <span class="score">99</span>
+        </p>
+        <p>
+          🎯 <span class="HStext">Highscore</span>:
+          <span class="high-score">99</span>
+        </p>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
